@@ -1,0 +1,136 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 100vh;
+    /* background-image: url(/pexels-lidia-miralles-16968296.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom; */
+    background-color: #303030;
+    
+    
+    
+
+}
+
+
+
+.margin-bottom-20{
+    background-image: url(img/FONDO.jpg);
+    background-repeat: no-repeat;
+    
+
+    
+}
+
+
+
+
+ul, ol {
+    list-style-type: none;
+}
+
+header {
+    background-color: #303030;
+}
+
+main {
+    /* background-color: coral; */
+    /* width: 80%; */
+    margin: 0 auto; /* esto centra divs que tengan ancho definido */
+    text-align: center;
+    font-size: 10px;
+}
+
+footer {
+    background-color: #181818;;
+}
+
+footer p {
+    text-align: center;
+}
+
+.social {
+   background-color: #2B2D42;
+}
+
+.carousel img{
+    border-radius: 10px;
+}
+
+.container-fluid {
+    /* padding: 0; */
+   
+}
+
+.tarjeta {
+    background-color: #2B2D42;
+    /* margin: 5px 0; */
+    padding: 20px;
+    border-radius: 2px;
+    font-size: 40px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.tarjeta img{
+    width: 100%;
+    border-radius: 10px;
+}
+
+
+
+
+
+h4{
+    color: white;
+}
+i{
+    color: white;
+
+}
+
+p{
+    color: white;
+}
+
+
+.navbar-brand{
+    color: whitesmoke;
+
+}
+
+.navbar {
+    background-color: black;
+    
+    
+}
+.nav-link{
+    color:white;
+    
+}
+
+
+
+
+.navbar-toggler{
+    background-color: white;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
