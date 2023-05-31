@@ -337,9 +337,7 @@ ul {
 
 /* LARGE SIZE */
 @media(min-width: 700px) {
-    body {
-        padding: 0 4em;
-    }
+    
     .contact-wrapper {
         display: grid;
         grid-template-columns: 2fr 1fr;
