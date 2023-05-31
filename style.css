@@ -50,15 +50,18 @@ main {
 }
 
 footer {
-    background-color: #181818;;
+    background-color: black;
 }
 
 footer p {
     text-align: center;
+    font-size: 50px;
+    color: white;
 }
 
 .social {
-   background-color: #2B2D42;
+   background-color: rgb(42, 42, 141);
+   color: white;
 }
 
 .carousel img{
@@ -71,7 +74,7 @@ footer p {
 }
 
 .tarjeta {
-    background-color: #2B2D42;
+    background-color: whitesmoke;
     /* margin: 5px 0; */
     padding: 20px;
     border-radius: 2px;
@@ -89,15 +92,21 @@ footer p {
 
 
 h4{
-    color: white;
+    color:black;
+    font-size: 24px;
 }
 i{
-    color: white;
+    color: black;
+    font-size: 30px;
 
 }
-
+.uno{
+    color: black;
+    text-align: center;
+    
+}
 p{
-    color: white;
+    color: black;
 }
 
 
