@@ -20,15 +20,65 @@ body {
 
 }
 
-
-
-.margin-bottom-20{
-    background-image: url(img/FONDO.jpg);
-    background-repeat: no-repeat;
-    
-
+.navbar-toggler:hover{
+    color: black;
+    background-color:transparent;
+    cursor: pointer;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border: 0px none;
+    margin: var(--one-header-space-l) 0;
+    padding: 0px;
+    text-align: center;
     
 }
+.navbar-brand{
+    color: black;
+    font-size: 25px;
+    
+
+}
+
+.navbar {
+    background-color: white;
+    
+    
+}
+.nav-link{
+    color: #0c0c0c;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+}
+
+
+
+
+.navbar-toggler{
+    background-color: white;
+    font-size: 19px;
+    
+}
+
+
+.carousel img{
+    border-radius: 10px;
+}
+
+.tarjeta {
+    background-color: whitesmoke;
+    /* margin: 5px 0; */
+    padding: 20px;
+    border-radius: 2px;
+    font-size: 40px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.tarjeta img{
+    width: 100%;
+    border-radius: 10px;
+}
+
+
+
 
 
 
@@ -68,24 +118,8 @@ footer p {
     border-radius: 10px;
 }
 
-.container-fluid {
-    /* padding: 0; */
-   
-}
 
-.tarjeta {
-    background-color: whitesmoke;
-    /* margin: 5px 0; */
-    padding: 20px;
-    border-radius: 2px;
-    font-size: 40px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}
 
-.tarjeta img{
-    width: 100%;
-    border-radius: 10px;
-}
 
 
 
@@ -110,28 +144,7 @@ p{
 }
 
 
-.navbar-brand{
-    color: whitesmoke;
 
-}
-
-.navbar {
-    background-color: black;
-    
-    
-}
-.nav-link{
-    color:white;
-    
-}
-
-
-
-
-.navbar-toggler{
-    background-color: white;
-    
-}
 
 
 
