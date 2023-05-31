@@ -9,15 +9,19 @@ body {
     flex-direction: column;
     justify-content: space-between;
     min-height: 100vh;
-    /* background-image: url(/pexels-lidia-miralles-16968296.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: bottom; */
-    background-color: #303030;
-    
-    
-    
-
+    background-color: grey;
+}
+body {
+    margin: 0;
+    font-family: var(--bs-body-font-family);
+    font-size: var(--bs-body-font-size);
+    font-weight: var(--bs-body-font-weight);
+    line-height: var(--bs-body-line-height);
+    color: var(--bs-body-color);
+    text-align: var(--bs-body-text-align);
+    background-color: var(--bs-body-bg);
+    -webkit-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: transparent;
 }
 
 .navbar-toggler:hover{
@@ -61,12 +65,14 @@ body {
 
 .carousel img{
     border-radius: 10px;
+    
 }
 
 .tarjeta {
-    background-color: whitesmoke;
+    
     /* margin: 5px 0; */
-    padding: 20px;
+    margin: 5px 0;
+    padding: 25px;
     border-radius: 2px;
     font-size: 40px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -74,7 +80,8 @@ body {
 
 .tarjeta img{
     width: 100%;
-    border-radius: 10px;
+    border-radius: 20px;
+    
 }
 
 
@@ -87,20 +94,34 @@ ul, ol {
     list-style-type: none;
 }
 
-header {
-    background-color: #303030;
-}
 
+.dos{
+    margin: 0 auto; /* esto centra divs que tengan ancho definido */
+    text-align: center;
+    font-size: 10px;
+    background-image: url(img/FONDO.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom;
+
+}
 main {
     /* background-color: coral; */
     /* width: 80%; */
     margin: 0 auto; /* esto centra divs que tengan ancho definido */
     text-align: center;
-    font-size: 10px;
+    font-size: 25px;
+    
+    background-color: white; 
+}
+
+
+contacto{
+    background-image: url(img/FONDO.jpg);
 }
 
 footer {
-    background-color: black;
+    background-color: rgb(58, 56, 56);
 }
 
 footer p {
@@ -109,21 +130,54 @@ footer p {
     color: white;
 }
 
+.btn-check:checked+.btn, .btn.active, .btn.show, .btn:first-child:active, :not(.btn-check)+.btn:active {
+    color: black;
+    background-color: black;
+    border-color: black;
+}
+
+.btn-check:checked+.btn, .btn.active, .btn.show, .btn:first-child:active, :not(.btn-check)+.btn:active {
+    color: black;
+    background-color: black;
+    border-color: black;
+}
+.btn:hover {
+    color: black;
+    background-color: black;
+    border-color: black;
+}
+
 .social {
-   background-color: rgb(42, 42, 141);
-   color: white;
+   background-color: rgb(0, 0, 0);
+   
 }
 
 .carousel img{
     border-radius: 10px;
 }
 
+li{
+    font-size: 25px;
+    
+    
+    
+}
+.card{
+    background-color: rgb(27, 27, 27);
+    border-radius: 25px;
+    height: 50px;
+    padding: 5px;
+}
 
 
 
 
 
-
+.ac{
+    color: white;
+    font-size: 35px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
 
 h4{
     color:black;
@@ -131,17 +185,26 @@ h4{
 }
 i{
     color: black;
-    font-size: 30px;
+    font-size: 25px;
 
 }
+
+h5{
+    font-size: 40px;
+    
+}
 .uno{
-    color: black;
-    text-align: center;
+    color:white;
+    text-align: flex;
+    font-size: 44px;
     
 }
 p{
     color: black;
+    font-size: 25px;
+    text-align: center;
 }
+
 
 
 
